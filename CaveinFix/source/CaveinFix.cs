@@ -54,8 +54,6 @@ namespace CaveinFix
         {
             var chunks = request.Chunks;
 
-            int seaLevel = TerraGenConfig.seaLevel - 1;
-
             const int chunksize = GlobalConstants.ChunkSize;
             const int chunksizeSquared = chunksize * chunksize;
 
