@@ -29,7 +29,7 @@ namespace CaveinFix
         {
             _sapi = api;
 
-            api.Event.ChunkColumnGeneration(OnChunkColumnGen, EnumWorldGenPass.TerrainFeatures, "standard");
+            api.Event.ChunkColumnGeneration(OnChunkColumnGen, EnumWorldGenPass.Vegetation, "standard");
         }
 
         public override void AssetsFinalize(ICoreAPI api)
